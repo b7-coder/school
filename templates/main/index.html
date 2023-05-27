@@ -1,0 +1,159 @@
+{% extends 'homepage.html' %}
+{% load static %}
+{% block content %}
+
+{% block css %}
+
+{% endblock %}
+
+<main class="main">
+    <section class="banner">
+        <div class="container">
+            <div class="banner__content">
+                <h1 class="banner__content-title">
+                    Self-Paced Learning Courses Online
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, vestibulum euismod nullam
+                    elementum. Urna, posuere <br>
+                    nisi sit gravida massa. Ultrices bibendum sagittis pellentesque vitae sit.
+                </p>
+                <button class="banner__content-btn">Start a course</button>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="rating">
+            <div class="rating__blogs">
+                <div class="rating__blog">
+                    <div class="icons">
+                        <svg width="72" height="64" viewBox="0 0 72 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M66.2344 32.9581C69.461 32.6723 72 29.956 72 26.6562V6.96875C72 3.47942 69.1612 0.640625 65.6719 0.640625H44.7188C41.2294 0.640625 38.3906 3.47942 38.3906 6.96875V15.2656H12.0938C8.60442 15.2656 5.76562 18.1044 5.76562 21.5938V46.9062C5.76562 47.6457 5.8943 48.3554 6.12844 49.0156H3.79688C1.70325 49.0156 0 50.7189 0 52.8125C0 58.628 4.73133 63.3594 10.5469 63.3594H61.4531C67.2687 63.3594 72 58.628 72 52.8125C72 50.7189 70.2968 49.0156 68.2031 49.0156H65.8716C66.1057 48.3554 66.2344 47.6457 66.2344 46.9062V32.9581ZM42.6094 6.96875C42.6094 5.80564 43.5556 4.85938 44.7188 4.85938H65.6719C66.835 4.85938 67.7812 5.80564 67.7812 6.96875V26.6562C67.7812 27.8194 66.835 28.7656 65.6719 28.7656H46.125C45.7296 28.7656 45.3423 28.8767 45.007 29.0863L40.754 31.7445L42.5205 25.8561C42.5794 25.6595 42.6094 25.4553 42.6094 25.25V6.96875ZM61.4531 59.1406H10.5469C7.1993 59.1406 4.45064 56.5277 4.23267 53.2344H67.7673C67.5494 56.5277 64.8007 59.1406 61.4531 59.1406ZM20.1094 33.125C20.1094 31.8068 21.1818 30.7344 22.5 30.7344C23.8182 30.7344 24.8906 31.8068 24.8906 33.125C24.8906 34.4432 23.8182 35.5156 22.5 35.5156C21.1818 35.5156 20.1094 34.4432 20.1094 33.125ZM18.9844 42.125C18.9844 40.8515 20.6272 39.7344 22.5 39.7344C23.5043 39.7344 24.472 40.0477 25.1549 40.594C25.4765 40.8512 26.0156 41.3921 26.0156 42.125V49.0156H18.9844V42.125ZM30.2344 49.0156V42.125C30.2344 40.3011 29.3437 38.5423 27.7903 37.2997C27.7554 37.2718 27.719 37.2456 27.6836 37.2183C28.5751 36.0916 29.1094 34.6699 29.1094 33.125C29.1094 29.4806 26.1444 26.5156 22.5 26.5156C18.8556 26.5156 15.8906 29.4806 15.8906 33.125C15.8906 34.6717 16.4261 36.0947 17.3194 37.222C15.7523 38.4323 14.7656 40.182 14.7656 42.125V49.0156H12.0938C10.9306 49.0156 9.98438 48.0694 9.98438 46.9062V21.5938C9.98438 20.4306 10.9306 19.4844 12.0938 19.4844H38.3906V24.9405L36.7131 30.5322C36.2036 32.2303 36.7851 34.0228 38.1946 35.0983C38.9538 35.6776 39.85 35.9704 40.7505 35.9704C41.5216 35.9704 42.2961 35.7555 42.9896 35.322L46.73 32.9844H62.0156V46.9062C62.0156 48.0694 61.0694 49.0156 59.9062 49.0156H30.2344Z"
+                                fill="#086CF9" />
+                        </svg>
+                    </div>
+                    <div class="rating__item">
+                        <h1>1400+</h1>
+                        <a href="#">Online Courses</a>
+                    </div>
+                </div>
+                <div class="rating__blog">
+                    <div class="icons">
+                        <svg width="72" height="68" viewBox="0 0 72 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M70.5938 0.816406H1.40625C0.629578 0.816406 0 1.44613 0 2.22266V65.7764C0 66.553 0.629578 67.1827 1.40625 67.1827H15.0469C15.8235 67.1827 16.4531 66.553 16.4531 65.7764C16.4531 64.9999 15.8235 64.3702 15.0469 64.3702H2.8125V13.7467C2.85891 13.7514 2.90602 13.7539 2.95369 13.7539H69.1875V64.3702H66.6861V58.2945C66.6861 55.5491 64.9351 53.1241 62.3291 52.2608L57.3667 50.6164C57.9724 49.9037 58.4667 49.0942 58.8233 48.2142H63.002C63.7786 48.2142 64.4082 47.5845 64.4082 46.808V42.8416C64.4082 35.2498 58.2318 29.0733 50.6399 29.0733C43.048 29.0733 36.8716 35.2498 36.8716 42.8416V46.808C36.8716 47.5845 37.5012 48.2142 38.2778 48.2142H42.4565C42.8133 49.0942 43.3074 49.9037 43.9131 50.6164L38.9507 52.2608C36.3447 53.1241 34.5938 55.5489 34.5938 58.2943V64.37H28.0529C27.2762 64.37 26.6466 64.9998 26.6466 65.7763C26.6466 66.5528 27.2762 67.1825 28.0529 67.1825H36H65.2798H70.5938C71.3704 67.1825 72 66.5528 72 65.7763V2.22266C72 1.44598 71.3704 0.816406 70.5938 0.816406ZM61.5957 45.4016H59.4533C59.4623 45.2383 59.4678 45.074 59.4678 44.9085V42.9724C59.4678 42.9593 59.4668 42.9465 59.4668 42.9336H61.5957V45.4016ZM39.6841 45.4016V42.9336H41.813C41.813 42.9467 41.812 42.9595 41.812 42.9724V44.9085C41.812 45.074 41.8175 45.2383 41.8265 45.4016H39.6841ZM42.2872 40.121H40.0262C41.2391 35.3916 45.5376 31.8855 50.6399 31.8855C55.7422 31.8855 60.0407 35.3916 61.2536 40.121H58.9926C57.8039 36.6486 54.5099 34.1444 50.6399 34.1444C46.7699 34.1444 43.4759 36.6486 42.2872 40.121ZM50.6399 44.7382C49.8632 44.7382 49.2337 45.368 49.2337 46.1445V47.5977C49.2337 48.3742 49.8632 49.004 50.6399 49.004H55.0403C54.7213 49.3465 54.3634 49.6522 53.9729 49.9131C53.8805 49.9581 53.7931 50.0131 53.7124 50.0773C52.8124 50.6142 51.7618 50.9239 50.6399 50.9239C49.518 50.9239 48.4675 50.6144 47.5677 50.0775C47.4868 50.0132 47.3993 49.9581 47.3067 49.913C45.691 48.8332 44.6245 46.9933 44.6245 44.9085V42.9724C44.6245 39.6555 47.323 36.957 50.6399 36.957C53.9568 36.957 56.6553 39.6555 56.6553 42.9724V44.9085C56.6553 45.3488 56.6063 45.7777 56.5162 46.1915H52.0462V46.1445C52.0462 45.368 51.4166 44.7382 50.6399 44.7382ZM63.8734 64.37H37.4062V58.2943C37.4062 56.7636 38.3825 55.4118 39.8354 54.9303L46.5228 52.7141C47.753 53.3656 49.1536 53.7363 50.6399 53.7363C52.1262 53.7363 53.5268 53.3656 54.757 52.7141L61.4444 54.9303C62.8973 55.4118 63.8734 56.7636 63.8734 58.2943V64.37ZM69.1875 10.9414H2.95369C2.90602 10.9414 2.85891 10.9439 2.8125 10.9486V3.62891H69.1875V10.9414Z"
+                                fill="#086CF9" />
+                        </svg>
+                    </div>
+                    <div class="rating__item">
+                        <h1>1400+</h1>
+                        <a href="#">Online Courses</a>
+                    </div>
+                </div>
+                <div class="rating__blog">
+                    <div class="icons">
+                        <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M21.4645 25.3047L25.9456 29.7856L36 19.8812V23.9887H40.2353V12.7051H28.9517V16.9404H32.9503L25.968 23.8183L21.4645 19.315L3.44897 37.3306L6.44375 40.3254L21.4645 25.3047Z"
+                                fill="#086CF9" />
+                            <path
+                                d="M12.7058 71.9997H21.1764C21.1764 70.603 21.1764 48.0882 21.1764 46.5879H12.7058V71.9997Z"
+                                fill="#086CF9" />
+                            <path
+                                d="M25.4116 72.0006H33.8822C33.8822 70.6769 33.8822 44.3311 33.8822 42.3535H25.4116V72.0006Z"
+                                fill="#086CF9" />
+                            <path
+                                d="M72.0003 21.1765L64.0591 10.5882L72.0003 0C70.5744 0 45.777 0 44.4709 0V38.1176H38.1179V72H55.0591V38.1176H48.7062V21.1765H72.0003Z"
+                                fill="#086CF9" />
+                            <path
+                                d="M8.47059 50.8232H0V71.9997H8.47059C8.47059 71.0221 8.47059 51.7974 8.47059 50.8232Z"
+                                fill="#086CF9" />
+                        </svg>
+                    </div>
+                    <div class="rating__item">
+                        <h1>1400+</h1>
+                        <a href="#">Online Courses</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="course">
+        <div class="container">
+            <h1 class="course__title">Our All The Online Courses</h1>
+            <p class="course__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Placerat mauris non dictumst in <br>
+                leo. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit.
+            </p>
+            <div class="course__cards">
+                {% for i in courses %}
+                <div class="course__card">
+                    <img src="{{i.image.url}}" alt="">
+                    <h3 class="course__card__title">
+                        {{i.name}}
+                    </h3>
+                    <p class="course__card__text">
+                        {{i.description}}
+                    </p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    <section class="mentor">
+        <div class="container">
+            <h1 class="mentor__title">Meet with Our Mentor</h1>
+            <p class="mentor__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Amet, vestibulum euismod <br>
+                nullam elementum. Urna, posuere nisi sit gravida massa.</p>
+            <div class="mentor__cards">
+                {% for i in mentors %}
+                <div class="mentor__card">
+                    <img src="{{i.image.url}}"
+                        alt="">
+                    <h3 class="course__card__title">
+                        {{i.name}}
+                    </h3>
+                    <p class="course__card__text">
+                        {{i.position.name}}
+                    </p>
+                </div>
+                {% endfor %}
+            </div>
+            <br><br>
+            <h1 class="mentor__title">Upcoming Event</h1>
+            <p class="mentor__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <br> Amet, vestibulum euismod nullam elementum.
+            </p>
+            <div class="mentor__cards">
+                {% for i in events %}
+                <div class="mentor__card">
+                    <img src="{{i.image.url}}" alt="">
+                    <h3 class="course__card__title">
+                        {{i.name}}
+                    </h3>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    <section class="form">
+        <div class="container">
+            <div class="form__content">
+                <h1>What Our Students Say</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat
+                    <br> mauris non dictumst in leo. Lorem ipsum dolor sit amet.
+                </p>
+                <form>
+                    <input type="text" placeholder="Enter your email...">
+                    <button class="btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+{% endblock %}

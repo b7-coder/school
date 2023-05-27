@@ -1,0 +1,25 @@
+
+<hedaer class="header">
+    <div class="container">
+        <nav class="header__nav">
+            <div class="menuTooggle icon">
+                <div class="hamburger"></div>
+            </div>
+            <div class="header__logo">
+                <h1 class="header__logo-title">
+                    Education
+                </h1>
+            </div>
+            
+            <ul class="header__menu">
+                <li><a href="{% url 'index' %}">Home</a></li>
+                <li><a href="{% url 'about' %}">About</a></li>
+                <li><a href="{% url 'services' %}">Services</a></li>
+                <li><a href="{% url 'blog' %}">Blog</a></li>
+            </ul>
+            <div class="header__contacts">
+                <a href="tel:+996990000935"><i class="fa-solid fa-phone"></i> +996990000935</a>
+            </div>
+        </nav>
+    </div>
+</hedaer>

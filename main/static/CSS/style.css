@@ -1,0 +1,63 @@
+@import 'header.css';
+@import 'footer.css';
+@import 'banner.css';
+@import 'rating.css';
+@import 'about.css';
+@import 'service.css';
+@import 'course.css';
+@import 'mentor.css';
+@import 'form.css';
+@import 'blog.css';
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+img{
+    object-fit: cover;
+}
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1140px) {
+	.container{
+		width: 992px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.container{
+		width: 768px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container{
+		width: 576px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.container{
+		width: 100%;
+		padding: 0px 1rem;
+	}
+}
+.btn{
+    background: #086CF9;
+    color: white;
+    padding: 16px 30px;
+    border: none;
+    outline: 0;
+}

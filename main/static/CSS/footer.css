@@ -1,0 +1,60 @@
+.footer {
+    background: #D3E5FE;
+    padding: 60px 0 80px;
+}
+.footer__nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.footer__nav ul h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    color: #222222;
+    margin-bottom: 24px;
+}
+
+.footer__nav ul li {
+    margin-bottom: 16px;
+}
+
+.footer__nav ul li a {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #444444;
+}
+
+.footer__nav ul li a:hover {
+    color: #086CF9
+}
+.icons{
+    display: flex;
+    column-gap: 16px;
+}
+.icons div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 14px;
+    gap: 10px;
+    width: 48px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+.icons i{
+   font-size: 20px;
+}
+.footer__two__three li a i{
+    margin-right: 8px;
+}
+footer > p{
+    text-align: center;
+}

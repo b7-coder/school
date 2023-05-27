@@ -1,0 +1,16 @@
+.blog__title{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: #222222;
+    text-align: center;
+    margin: 30px 0;
+}
+.blog__cards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}

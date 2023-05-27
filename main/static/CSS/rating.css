@@ -1,0 +1,38 @@
+.rating {
+    background: #FFFFFF;
+    box-shadow: 0px 11px 35px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    position: relative;
+    top: -95px;
+}
+
+.rating__blogs {
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+    flex-wrap: wrap;
+    padding: 56px 88px;
+}
+
+.rating__blog {
+    display: flex;
+    column-gap: 25px;
+}
+
+.rating__item h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    color: #222222;
+}
+
+.rating__item a {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    color: #086CF9;
+}

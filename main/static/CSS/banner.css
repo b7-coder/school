@@ -1,0 +1,38 @@
+.banner {
+    background-image: url('https://ug.ru/wp-content/uploads/2022/01/03mv_22_0103.jpg');
+    height: 740px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner__content-title {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 73px;
+    color: #FFFFFF;
+}
+
+.banner__content p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 24px 0 54px 0;
+}
+.banner__content-btn{
+    background: #086CF9;
+    color: white;
+    padding: 16px 30px;
+    border: none;
+    outline: 0;
+}

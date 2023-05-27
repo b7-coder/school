@@ -1,0 +1,19 @@
+{% extends 'homepage.html' %}
+{% block content %}
+<section class="about">
+    <div class="container">
+        <div class="about__content">
+            <div class="about__content-text">
+                <h1>{{news.name}}</h1>
+                <!-- <button class="btn"><a href="#">Learn More</a></button> -->
+            </div>
+            <div class="about__content-img">
+                <img src="{{news.image.url}}" alt="">
+            </div>
+        </div>
+        <p>{{news.description}}</p>
+        <br><br>
+    </div>
+</section>
+
+{% endblock %}

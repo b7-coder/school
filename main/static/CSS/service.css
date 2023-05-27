@@ -1,0 +1,37 @@
+.service {
+    padding: 128px 0;
+}
+
+.service__title {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: #222222;
+    text-align: center;
+}
+.service__text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    text-align: center;
+    color: #555555;
+}
+.service__items{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.service__item{
+    width: 20%;
+}
+@media screen and (max-width:510px) {
+    .service__item{
+        width: 50%;
+    }
+}
